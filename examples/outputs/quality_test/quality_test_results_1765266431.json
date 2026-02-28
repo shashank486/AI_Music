@@ -1,0 +1,517 @@
+{
+  "test_info": {
+    "timestamp": 1765266431.0767229,
+    "quality_threshold": 65.0,
+    "total_samples": 20
+  },
+  "summary": {
+    "total_samples": 20,
+    "passed": 11,
+    "failed": 9,
+    "avg_score": 63.578958868657836,
+    "min_score": 44.509052403877185,
+    "max_score": 78.9785602004135
+  },
+  "results": [
+    {
+      "sample_id": 1,
+      "prompt": "happy upbeat pop music with piano and drums",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 192.23,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765265229.976015,
+        "scores": {
+          "audio_quality": 45.68624782735001,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 89.30102227966024
+        },
+        "mood": {
+          "tempo_bpm": 99.38401442307692,
+          "energy_db": -16.0118888540752,
+          "spectral_centroid": 1732.5255569915062
+        },
+        "notes": [],
+        "overall_score": 66.99745395440459,
+        "pass": true
+      }
+    },
+    {
+      "sample_id": 2,
+      "prompt": "calm ambient music with soft pads and strings",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 87.82,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765265317.816273,
+        "scores": {
+          "audio_quality": 1.816761209401665,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 39.81719550852631
+        },
+        "mood": {
+          "tempo_bpm": 123.046875,
+          "energy_db": -12.474813744841304,
+          "spectral_centroid": 606.0332085701754
+        },
+        "notes": [],
+        "overall_score": 48.3267912952588,
+        "pass": false
+      }
+    },
+    {
+      "sample_id": 3,
+      "prompt": "energetic rock music with electric guitar",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 22.14,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765265339.9836018,
+        "scores": {
+          "audio_quality": 100.0,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 81.7630063650687,
+          "frequency_balance": 82.29671590645239
+        },
+        "mood": {
+          "tempo_bpm": 123.046875,
+          "energy_db": -17.400626237391002,
+          "spectral_centroid": 2442.58210233869
+        },
+        "notes": [],
+        "overall_score": 72.81194438149227,
+        "pass": true
+      }
+    },
+    {
+      "sample_id": 4,
+      "prompt": "sad emotional ballad with acoustic guitar",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 120.57,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765265460.5719008,
+        "scores": {
+          "audio_quality": 43.701413553296355,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 60.238865365037924
+        },
+        "mood": {
+          "tempo_bpm": 103.359375,
+          "energy_db": -18.72732101739195,
+          "spectral_centroid": 1005.9716341259482
+        },
+        "notes": [],
+        "overall_score": 60.788055722878795,
+        "pass": false
+      }
+    },
+    {
+      "sample_id": 5,
+      "prompt": "fast techno electronic dance music",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 27.2,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765265487.809099,
+        "scores": {
+          "audio_quality": 100.0,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 50.04176614757567
+        },
+        "mood": {
+          "tempo_bpm": 135.99917763157896,
+          "energy_db": -12.980209203943287,
+          "spectral_centroid": 3248.955846310608
+        },
+        "notes": [],
+        "overall_score": 70.00835315950678,
+        "pass": true
+      }
+    },
+    {
+      "sample_id": 6,
+      "prompt": "classical piano sonata",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 92.67,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765265580.51524,
+        "scores": {
+          "audio_quality": 100.0,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 61.0888119896448
+        },
+        "mood": {
+          "tempo_bpm": 135.99917763157896,
+          "energy_db": -13.908743740042652,
+          "spectral_centroid": 1027.22029974112
+        },
+        "notes": [],
+        "overall_score": 72.21776232571119,
+        "pass": true
+      }
+    },
+    {
+      "sample_id": 7,
+      "prompt": "jazz saxophone improvisation",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 90.28,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765265670.830997,
+        "scores": {
+          "audio_quality": 14.458188582239224,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 48.422976905408596
+        },
+        "mood": {
+          "tempo_bpm": 123.046875,
+          "energy_db": -19.33255237470107,
+          "spectral_centroid": 3289.425577364785
+        },
+        "notes": [],
+        "overall_score": 52.57623304495333,
+        "pass": false
+      }
+    },
+    {
+      "sample_id": 8,
+      "prompt": "country folk music with banjo",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 24.63,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765265695.481386,
+        "scores": {
+          "audio_quality": 100.0,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 94.62756224826003
+        },
+        "mood": {
+          "tempo_bpm": 99.38401442307692,
+          "energy_db": -17.205798391512882,
+          "spectral_centroid": 2134.310943793499
+        },
+        "notes": [],
+        "overall_score": 78.92551237072648,
+        "pass": true
+      }
+    },
+    {
+      "sample_id": 9,
+      "prompt": "heavy metal with distorted guitars",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 63.94,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765265759.4419892,
+        "scores": {
+          "audio_quality": 0.0,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 50.88177085396342,
+          "frequency_balance": 71.66349138796778
+        },
+        "mood": {
+          "tempo_bpm": 135.99917763157896,
+          "energy_db": -14.440590270327487,
+          "spectral_centroid": 2708.4127153008053
+        },
+        "notes": [],
+        "overall_score": 44.509052403877185,
+        "pass": false
+      }
+    },
+    {
+      "sample_id": 10,
+      "prompt": "reggae music with offbeat rhythm",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 64.18,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765265823.640844,
+        "scores": {
+          "audio_quality": 100.0,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 78.67983956701725
+        },
+        "mood": {
+          "tempo_bpm": 172.265625,
+          "energy_db": -14.278114265699864,
+          "spectral_centroid": 1466.9959891754313
+        },
+        "notes": [],
+        "overall_score": 75.73596783766749,
+        "pass": true
+      }
+    },
+    {
+      "sample_id": 11,
+      "prompt": "blues guitar solo",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 29.37,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765265853.033034,
+        "scores": {
+          "audio_quality": 100.0,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 80.57729930829434
+        },
+        "mood": {
+          "tempo_bpm": 103.359375,
+          "energy_db": -17.672125286689752,
+          "spectral_centroid": 1514.4324827073585
+        },
+        "notes": [],
+        "overall_score": 76.11545978554341,
+        "pass": true
+      }
+    },
+    {
+      "sample_id": 12,
+      "prompt": "hip hop beats with bass",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 72.96,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765265926.0344949,
+        "scores": {
+          "audio_quality": 0.0,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 32.01011080271216
+        },
+        "mood": {
+          "tempo_bpm": 112.34714673913044,
+          "energy_db": -21.234588625347154,
+          "spectral_centroid": 3699.7472299321958
+        },
+        "notes": [],
+        "overall_score": 46.4020221141404,
+        "pass": false
+      }
+    },
+    {
+      "sample_id": 13,
+      "prompt": "orchestral symphony",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 64.78,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765265990.8576078,
+        "scores": {
+          "audio_quality": 0.9355663172812734,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 92.43082839617477,
+          "frequency_balance": 95.42446436863949
+        },
+        "mood": {
+          "tempo_bpm": 129.19921875,
+          "energy_db": -14.498072873265295,
+          "spectral_centroid": 2114.3883907840127
+        },
+        "notes": [],
+        "overall_score": 57.75817175866093,
+        "pass": false
+      }
+    },
+    {
+      "sample_id": 14,
+      "prompt": "lo-fi hip hop beats",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 64.11,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765266054.9933739,
+        "scores": {
+          "audio_quality": 0.0,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 26.935616926038524
+        },
+        "mood": {
+          "tempo_bpm": 92.28515625,
+          "energy_db": -13.427328858930847,
+          "spectral_centroid": 248.2115812788477
+        },
+        "notes": [],
+        "overall_score": 45.387123339820576,
+        "pass": false
+      }
+    },
+    {
+      "sample_id": 15,
+      "prompt": "disco funk music",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 41.89,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765266096.921087,
+        "scores": {
+          "audio_quality": 100.0,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 59.43539599327933
+        },
+        "mood": {
+          "tempo_bpm": 123.046875,
+          "energy_db": -17.84969082850812,
+          "spectral_centroid": 3014.115100168017
+        },
+        "notes": [],
+        "overall_score": 71.88707912676878,
+        "pass": true
+      }
+    },
+    {
+      "sample_id": 16,
+      "prompt": "new age meditation music",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 62.21,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765266159.162991,
+        "scores": {
+          "audio_quality": 5.799304358205532,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 47.186818625735626
+        },
+        "mood": {
+          "tempo_bpm": 117.45383522727273,
+          "energy_db": -13.390762266980724,
+          "spectral_centroid": 679.6704656433907
+        },
+        "notes": [],
+        "overall_score": 50.59722454619101,
+        "pass": false
+      }
+    },
+    {
+      "sample_id": 17,
+      "prompt": "punk rock with fast drums",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 95.3,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765266254.485507,
+        "scores": {
+          "audio_quality": 100.0,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 63.0234701248117
+        },
+        "mood": {
+          "tempo_bpm": 86.1328125,
+          "energy_db": -14.607267481893661,
+          "spectral_centroid": 2924.4132468797075
+        },
+        "notes": [],
+        "overall_score": 72.60469395235764,
+        "pass": true
+      }
+    },
+    {
+      "sample_id": 18,
+      "prompt": "R&B soul music",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 51.81,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765266306.32382,
+        "scores": {
+          "audio_quality": 100.0,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 48.264201952349595
+        },
+        "mood": {
+          "tempo_bpm": 99.38401442307692,
+          "energy_db": -19.307311323424827,
+          "spectral_centroid": 3293.39495119126
+        },
+        "notes": [],
+        "overall_score": 69.65284032081708,
+        "pass": true
+      }
+    },
+    {
+      "sample_id": 19,
+      "prompt": "folk acoustic singer-songwriter",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 45.09,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765266351.437453,
+        "scores": {
+          "audio_quality": 100.0,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 100.0,
+          "frequency_balance": 94.89280139696031
+        },
+        "mood": {
+          "tempo_bpm": 75.99954044117646,
+          "energy_db": -13.79362282814551,
+          "spectral_centroid": 1872.3200349240078
+        },
+        "notes": [],
+        "overall_score": 78.9785602004135,
+        "pass": true
+      }
+    },
+    {
+      "sample_id": 20,
+      "prompt": "electronic synthwave",
+      "output_file": "examples/outputs/enhanced_output.wav",
+      "generation_time": 79.57,
+      "quality_report": {
+        "file": "examples/outputs/enhanced_output.wav",
+        "timestamp": 1765266431.041335,
+        "scores": {
+          "audio_quality": 100.0,
+          "duration_accuracy": 0.0,
+          "silence_detection": 100.0,
+          "dynamic_range": 63.26056068615632,
+          "frequency_balance": 33.23381827016958
+        },
+        "mood": {
+          "tempo_bpm": 143.5546875,
+          "energy_db": -18.318460099775553,
+          "spectral_centroid": 3669.1545432457606
+        },
+        "notes": [],
+        "overall_score": 59.2988757319663,
+        "pass": false
+      }
+    }
+  ]
+}

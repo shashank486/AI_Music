@@ -1,0 +1,7 @@
+{
+    "happy": "upbeat, cheerful, bright instruments, major key, energetic rhythm, {tempo} BPM",
+    "sad": "emotional, slow tempo, minor key, soft piano and strings, melancholic, {tempo} BPM",
+    "energetic": "high-energy, fast-paced rhythms, strong beats, powerful synths, {tempo} BPM",
+    "calm": "soft ambient pads, gentle textures, peaceful soundscape, {tempo} BPM",
+    "romantic": "warm strings, mellow piano, soft harmony, emotional flow, {tempo} BPM"
+}

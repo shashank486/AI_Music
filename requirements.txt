@@ -1,0 +1,14 @@
+
+
+transformers
+torch
+torchaudio
+scipy
+soundfile
+streamlit
+numpy
+librosa
+pydub
+audioread
+matplotlib
+scikit-learn

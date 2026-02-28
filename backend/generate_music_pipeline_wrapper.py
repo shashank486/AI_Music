@@ -1,0 +1,1 @@
+from app.streamlit_app import generate_music_pipeline

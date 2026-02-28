@@ -1,0 +1,16 @@
+{
+  "index": {},
+  "stats": {
+    "hits": 0,
+    "misses": 0,
+    "total_requests": 0,
+    "cache_size_bytes": 0,
+    "files_cached": 0,
+    "evictions": 0,
+    "most_cached_prompts": {},
+    "avg_generation_time": 0.0,
+    "total_generation_time": 0.0,
+    "cache_warming_hits": 0,
+    "popular_moods_cached": []
+  }
+}
